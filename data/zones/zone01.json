@@ -1,0 +1,30 @@
+{
+  "id": "zone01",
+  "name": "Forest 01 Prototype",
+  "source": {
+    "map": "01.map",
+    "mapFormat": "Wemade Mir3 MapType5",
+    "mapSizeCells": [600, 600],
+    "patch": {
+      "x": 190,
+      "y": 484,
+      "widthCells": 24,
+      "heightCells": 20
+    },
+    "libraries": {
+      "back": "Map Data/Tiles30c.Zl",
+      "decoration": "Map Data/SmObjectsc.Zl"
+    }
+  },
+  "render": {
+    "cellWidth": 48,
+    "cellHeight": 32,
+    "nativeSize": [1152, 640],
+    "background": "assets/zones/zone01/zone01_background.png"
+  },
+  "notes": [
+    "This is a real fragment of map 01, not a hand-drawn reconstruction.",
+    "The prototype renders the original ground layer and SmObjectsc middle/front decorations only.",
+    "The center of this fragment is already open enough to become the first idle combat area."
+  ]
+}
